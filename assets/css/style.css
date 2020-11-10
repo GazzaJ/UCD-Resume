@@ -478,6 +478,17 @@ img {
 
 /* page content styles */
 
+#gh-username {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#gh-user-data {
+    text-align: center;
+}
+
+
 .small-name {
   font-size: 0.75em;
   color: #a9a9a9;
@@ -506,7 +517,7 @@ img {
 }
 
 .repo-list ul li {
-  display: block;
+  display: inline-block;
 }
 
 .repo-list ul li a {
@@ -617,6 +628,6 @@ img {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 75%;
     }
 }
